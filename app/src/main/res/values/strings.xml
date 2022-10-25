@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+    <string name="instructions">
+        \nHello there,
+        \n\n\nTo use our application you need first to know some instructions.
+        \n\n\nIn our application you can add new shoes by the name of the brand, the color of the shoes, size and the price of the shoes.
+        \n\nAnd there is a list screen where you will find all of the products.
+        \n\n\nWe hope you get what you want :)
+        \n\n\nHAPPY shopping.
+    </string>
+</resources>
