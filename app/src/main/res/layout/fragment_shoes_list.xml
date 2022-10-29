@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--I used LinearLayout because my screen contain of a vertical items, and this is the use of the LinearLayout-->
+<!--I used ConstraintLayout because I needed to connect my items with each other by using "End to End of", "Start to End of", etc -->
+
+<layout>
+    <!--I used ConstraintLayout because I needed to connect my items with each other by using "End to End of", "Start to End of", etc -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -20,6 +25,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:title="Shoes List" />
 
+        <!--I used LinearLayout because my screen contain of a vertical items, and this is the use of the LinearLayout-->
         <LinearLayout
             android:id="@+id/shoe_list"
             android:layout_width="match_parent"

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--I used LinearLayout because my screen contain of a vertical items, and this is the use of the LinearLayout-->
+<!--I used ConstraintLayout because I needed to connect my items with each other by using "End to End of", "Start to End of", etc -->
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <variable
             name="loginData"
             type="com.omarali.shoestore.model.LoginData" />
@@ -43,6 +46,7 @@
             android:textColor="@color/white"
             android:textSize="20sp" />
 
+        <!--I used LinearLayout because my screen contain of a vertical items, and this is the use of the LinearLayout-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
